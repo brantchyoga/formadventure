@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in the blanks to write your crazy story!</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="person1">A wild name for your adventurer</label>
+            <input id="person1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="person2">Another name for your friendly companion</label>
+            <input id="person2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="animal">An animal of your choosing to be your guardian</label>
+            <input id="animal" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="exclamation">An exclamation remark</label>
+            <input id="exclamation" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="verb">A past tense verb (excitement)</label>
+            <input id="verb" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="place">Place where dead go</label>
+            <input id="place" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Let's see the story!</button>
+        </form>
+      </div>
+
+      <div id="story">
+        <h1>A mystical, and risky undertaking of unknown outcome</h1>
+        <p>One day, <span class="person1"></span> and <span class="person2"></span> were walking through the shire, when suddenly a ginormous <span class="animal"></span> appeared. "<span class="exclamation"></span>", <span class="person1"></span> cried! The pair of them executed <span class="verb"></span> as slowly as only idiots could. Then when they were eaten, <span class="person1"></span> and <span class="person2"></span> floated to <span class="place"></span>.</p>
+      </div>
+    </div>
+
+  </body>
+</html>
